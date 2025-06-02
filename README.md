@@ -4,29 +4,49 @@
 To fabricate a printed circuit board (PCB) for the automatic street light control system and to assemble & solder all the electronic components onto the board as per the circuit design, ensuring proper functionality of the system.
 ## EQUIPMENT REQUIRED:
 ● Hardware: Personal Computer (PC)
+
 ● Software: Mach3 Mill
+
 ● PCB Prototype machine
 
 ## PROCEDURE:
- Turn ON the PC and power up the PCB MATE CNC machine.
- Launch the Mach3 Mill software on the PC.
- Secure the copper-clad board onto the PCB MATE machine’s work area using double-sided tape to prevent any movement during operation.
- Set the spindle to manual mode for initial positioning.
- Move the spindle to the desired starting location on the board where engraving, drilling, and cutting operations will be performed, and set the X, Y, and Z coordinates manually.
- Switch the spindle to PC mode, then set the same X, Y, and Z values in the Mach3 software. Navigate to the Offset tab, select G54, and save the work offset values.
- Load the auto-leveled engraving file into Mach3 by selecting File > Load.
- Insert the appropriate tool bits (engraving, drilling, cutting) into the correct tool holders.
- Click “Refer All Home” to zero all axes, then select “Cycle Start” to begin the process.
- For auto-leveling, connect the magnet above the PCB board and attach the probe wire to the tool bit, ensuring the surface level is properly detected.
- Press Cycle Start again to begin the engraving process; the machine will follow the auto-leveled G-Code and engrave the circuit pattern.
- After engraving is complete, load the Drill file and press Cycle Start to perform all drilling operations.
- Once drilling is done, load the Cut file and start the cutting operation to shape the PCB outline.
- After the cutting process is completed, carefully remove the PCB from the machine.
- Proceed with the masking process: Apply photoresist ink on the board and cover it with a printed OHP sheet.
- Place the board in a UV exposure machine for approximately 1 minute and 25 seconds to develop the PCB layout.
- Once the board is developed, assemble all the electronic components on the bare PCB according to the circuit design.
- Solder all the components securely onto the board.
- Finally, test the circuit by powering it ON and checking the output functionality.
+1. Turn ON the PC and power up the PCB MATE CNC machine.
+
+2. Launch the Mach3 Mill software on the PC.
+
+3. Secure the copper-clad board onto the PCB MATE machine’s work area using double-sided tape to prevent any movement during operation.
+
+4. Set the spindle to manual mode for initial positioning.
+
+5. Move the spindle to the desired starting location on the board where engraving, drilling, and cutting operations will be performed, and set the X, Y, and Z coordinates manually.
+
+6. Switch the spindle to PC mode, then set the same X, Y, and Z values in the Mach3 software. Navigate to the Offset tab, select G54, and save the work offset values.
+
+7. Load the auto-leveled engraving file into Mach3 by selecting File > Load.
+
+8. Insert the appropriate tool bits (engraving, drilling, cutting) into the correct tool holders.
+
+9. Click “Refer All Home” to zero all axes, then select “Cycle Start” to begin the process.
+
+10. For auto-leveling, connect the magnet above the PCB board and attach the probe wire to the tool bit, ensuring the surface level is properly detected.
+
+11. Press Cycle Start again to begin the engraving process; the machine will follow the auto-leveled G-Code and engrave the circuit pattern.
+
+12. After engraving is complete, load the Drill file and press Cycle Start to perform all drilling operations.
+
+13. Once drilling is done, load the Cut file and start the cutting operation to shape the PCB outline.
+
+14. After the cutting process is completed, carefully remove the PCB from the machine.
+
+15. Proceed with the masking process: Apply photoresist ink on the board and cover it with a printed OHP sheet.
+
+16. Place the board in a UV exposure machine for approximately 1 minute and 25 seconds to develop the PCB layout.
+
+17. Once the board is developed, assemble all the electronic components on the bare PCB according to the circuit design.
+
+18. Solder all the components securely onto the board.
+
+19. Finally, test the circuit by powering it ON and checking the output functionality.
 
 ## THEORY:
 Mach3 Mill is a popular software used for controlling CNC (Computer Numerical Control) milling machines. It's commonly employed in various manufacturing processes, including PCB (Printed Circuit Board) fabrication. Here's an overview of Mach3 Mill software in the context of PCB engraving, drilling, and cutting:
