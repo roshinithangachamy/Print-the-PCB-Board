@@ -10,11 +10,17 @@ To design a circuit then simulate it and measure the voltage.
 
 ## PROCEDURE:
 1). Open Proteus ISIS.
+
 2). Create a new project.
+
 3). Add components using the "P" button.
+
 4). Place components on the workspace and Wire the circuit.
+
 5). Set component values/properties
+
 6). Set component values/properties and Add virtual instruments
+
 7). Click "Play" to simulate Debug and re-simulate if needed
 
 ## EXPECTED OUTPUT:
